@@ -11,7 +11,7 @@ source:
   sha256: e9c06cc96400939ab5327123a3f699078eaad8a6283247d7b2ae0f6afffadf14
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script:
     - rm -f pyproject.toml
@@ -43,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - xylar
