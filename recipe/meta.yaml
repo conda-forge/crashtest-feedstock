@@ -1,13 +1,12 @@
 {% set name = "crashtest" %}
 {% set version = "0.4.1" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/crashtest-{{ version }}.tar.gz
   sha256: 80d7b1f316ebfbd429f648076d6275c877ba30ba48979de4191714a75266f0ce
 
 build:
